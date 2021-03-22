@@ -24,9 +24,9 @@ const Services = () => {
          <ServicesWrapper>
          
             <ServicesCard>
-               <ServicesIcons src={Icon2}/>
-               <ServicesH2>Space Themed Website</ServicesH2>
-               <ServicesP> You can access online here</ServicesP>
+               <ServicesIcons src={Icon2}/> 
+               <ServicesH2> Space Themed Website</ServicesH2>
+               <ServicesP> You can access online <a style={{ color: 'black' }} href="https://reyhan-1.github.io/space-website/" target="myTab">here </a>   </ServicesP>
             </ServicesCard>
             <ServicesCard>
                <ServicesIcons src={Icon3}/>
