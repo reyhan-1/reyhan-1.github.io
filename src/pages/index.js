@@ -7,6 +7,8 @@ import ExpElements from '../components/ExpSection';
 import { homeObjOne, homeObjTwo, homeObjThree } from '../components/InfoSection/Data';
 import Services from '../components/Services';
 import { ExpElementsP } from '../components/ExpSection/ExpElements';
+import Footer from '../components/Footer';
+
 
 const Home = () => {
    const[isOpen, setIsOpen] = useState(false)
@@ -24,6 +26,8 @@ const Home = () => {
          <InfoSection {...homeObjOne}/>
          <ExpElements/>
          <Services/>
+         <Footer/>
+
       </>
    )
 };

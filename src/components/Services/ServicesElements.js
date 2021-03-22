@@ -10,8 +10,6 @@ export const ServicesContainer = styled.div`
    padding: 8px 24px;
    background: black;
    background: linear-gradient(to top, black, indigo, purple);
- 
-
    display: flex;
    justify-content: center;
    align-items: center;
