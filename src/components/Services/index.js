@@ -36,7 +36,7 @@ const Services = () => {
             <ServicesCard>
                <ServicesIcons src={Icon4}/>
                <ServicesH2>Shipit</ServicesH2>
-               <ServicesP>  A Spring based company website</ServicesP>
+               <ServicesP>  A Spring based shipping company website</ServicesP>
             </ServicesCard>
 
 
@@ -44,6 +44,12 @@ const Services = () => {
             <ServicesCard>
                <ServicesH2>Battleship Game</ServicesH2>
                <ServicesP> Basic implemenation of battleship game in Java.</ServicesP>
+            </ServicesCard>
+
+            <ServicesCard>
+               <ServicesH2>CS473/573 Algorithms I Programming Assignment</ServicesH2>
+               <ServicesP> Implemented the Dijkstra’s algorithm using binary heap-based implementation of priority queues to solve a network reliability problem.
+               </ServicesP>
             </ServicesCard>
 
             <ServicesCard>

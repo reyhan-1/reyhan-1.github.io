@@ -17,6 +17,10 @@ export const ServicesContainer = styled.div`
    height: 800px;
    position: relative;
 
+
+   @media screen and (max-width: 1000px) {
+      height: auto;
+   } 
    
    @media screen and (max-width: 768px) {
       height: auto;
@@ -49,16 +53,20 @@ export const ServicesWrapper = styled.div`
 
    @media screen and (max-width: 1000px) {
       grid-template-columns: 1fr 1fr 1fr;
+      padding: 0 10px;
+      margin-bottom: 20px;
    } 
 
    @media screen and (max-width: 768px) {
       grid-template-columns: 1fr 1fr; 
       padding: 0 10px;
+      margin-bottom: 20px;
    }
 
    @media screen and (max-width: 480px) {
       grid-template-columns: 1fr; 
       padding: 0 10px;
+      margin-bottom: 20px;
    }
 `
 
@@ -95,14 +103,21 @@ export const ServicesH1 = styled.h1`
    color: #fff;
    align-self:center;
 
+
+   @media screen and (max-width: 1000px) {
+      font-size: 2.5rem;
+
+   } 
+
    @media screen and (max-width: 480px) {
       font-size: 2.5rem;
-      padding-top: 60px;
+
    }
 `
 export const ServicesH2 = styled.h2`
    font-size: 0.8rem;
    margin-bottom: 0.1em;
+   text-align: center;
 `
 
 export const ServicesH3 = styled.h1`

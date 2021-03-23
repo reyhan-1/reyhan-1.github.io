@@ -49,31 +49,30 @@ const HeroSection = () => {
 
             <HeroP> 
             <FontAwesomeIcon icon="map-marker-alt"/>     
-        <text  style={{ color: 'black' }} > Ankara, Turkey</text> </HeroP> 
+        <text  style={{ color: 'black' }} > &#160;Ankara, Turkey</text> </HeroP> 
             
             <HeroP>
             <FontAwesomeIcon icon="envelope"/> 
-        <a href="mailto:reyhanuyanik@icloud.com"> reyhanuyanik@icloud.com </a>
+        <a href="mailto:reyhanuyanik@icloud.com">&#160; reyhanuyanik@icloud.com </a>
             </HeroP>
 
             <HeroP> 
             
-            <span> Resume </span>
-            <a href="https://reyhan-1.github.io/resume/" target="myTab"><FontAwesomeIcon icon="file" /></a>
+            <FontAwesomeIcon icon="file" /> 
+            <a href="https://reyhan-1.github.io/resume/" target="myTab">&#160; Resume</a>
            
             </HeroP>
             
             <HeroP>
-            <span> GitHub  </span>
+            <FontAwesomeIcon icon={['fab', 'github']} />
             <a href="https://github.com/reyhan-1" target="myTab">
-            <FontAwesomeIcon icon={['fab', 'github']} /> </a>
-            
+            &#160; GitHub </a>
             </HeroP>
 
             <HeroP>
-            <span> Linkedin  </span>
+            <FontAwesomeIcon icon={['fab', 'linkedin-in']} />  
             <a href="https://www.linkedin.com/in/reyhan-uyanik" target="myTab">
-              <FontAwesomeIcon icon={['fab', 'linkedin-in']} /> </a>
+            &#160; Linkedin</a>
            
             </HeroP>
 
