@@ -43,9 +43,9 @@ export const SketchesWrapper = styled.div`
    grid-template-columns: 1fr 1fr 1fr 1fr;
    align-items: left;
    grid-gap: 16px;
-   padding: 10 50px;
+   padding: 10px 50px;
 
-   @media screen and (max-width: 1000px) {
+   @media screen and (max-width: 1100px) {
       grid-template-columns: 1fr 1fr 1fr;
       padding: 0 10px;
       margin-bottom: 20px;
@@ -90,10 +90,13 @@ color: white;
 `
 
 export const SketchesP = styled.p`
-font-size: 16px;
-margin-bottom: 30px;
-margin-top: 5px;
-align-items: right;
+color: pink;
+font-size: 14px;
+line-height: 16px;
+font-weight: 700;
+letter-spacing: 1.2px;
+margin-bottom: 10px;
+margin-top: 10px;
 `
 
 
