@@ -10,7 +10,8 @@ export const homeObjOne = {
       'I am Reyhan, big fan of passport stamps, skywatching enhusiast, equestrian. I was born in Michigan, USA in 1997. ', 
    topLine: 'I am passionate about designing thoughtful solutions to complex problems. ',
    description2: 'Currently I am studying in Bilkent University in Computer Science Department. ', 
-   buttonLabel: '',
+   description3: 'I fill my free time sketching and water color painting . ',
+   buttonLabel: 'see my skethces here',
    imgStart: false, 
    img: logo,
    alt: 'reyhan', 
@@ -20,20 +21,6 @@ export const homeObjOne = {
 };
 
 
-export const homeObjTwo = {
-   id: 'discover', 
-   lightBg: true,
-   lightText: false,
-   lightTextDesc: false,
-   topLine: ' ',
-   headline: 'Experience',
-   description: 
-      'I am passionate about designing thoughtful solutions to complex problems.',  
-   buttonLabel: 'a buttonnn',
-   dark: false,
-   primary: false,
-   darkText: true
-};
 
 export const homeObjThree = {
    id: 'services', 
@@ -43,8 +30,8 @@ export const homeObjThree = {
    topLine: '',
    headline: 'Projects & Research',
    description: 
-      'eam. ', 
-   buttonLabel: ' a button',
+      'I fill my free time sketching and water color painting . ', 
+   buttonLabel: 'see my sketches here',
    imgStart: true, 
    img: logo,
    alt: 'reyhan',

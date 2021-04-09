@@ -40,7 +40,7 @@ const Services = () => {
             </ServicesCard>
 
 
-            
+        
             <ServicesCard>
                <ServicesH2>Battleship Game</ServicesH2>
                <ServicesP> Basic implemenation of battleship game in Java.</ServicesP>

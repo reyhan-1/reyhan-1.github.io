@@ -4,6 +4,8 @@ import {Link as LinkS} from 'react-scroll'
 
 export const Nav = styled.nav`
 
+text-decoration: none;
+
    height: 60px;
    margin-top: -60px; 
    display: flex;
@@ -39,6 +41,9 @@ export const NavbarContainer = styled.div`
    width: 100%;
    padding: 0 24px;
    max-width: 1100px;
+
+   text-decoration: none;
+
 `
 
 export const NavLogo = styled(LinkR)`
@@ -65,6 +70,8 @@ export const NavLogo = styled(LinkR)`
       
       opacity: 1;
 
+      text-decoration: none;
+
       -webkit-text-stroke: 1px black;
       color: #C0B8E8;
       text-shadow:
@@ -84,7 +91,7 @@ export const MobileIcon = styled.div`
       position: absolute;
       top: 0;
       right: 0;
-      margin-top: 15px;
+      margin-top: 5px;
       transform: translate(-100%, 60%); /*centers it*/
       font-size: 1rem;
       cursor: pointer;
@@ -97,6 +104,9 @@ export const NavMenu = styled.ul`
    align-items: center;
    list-style: none;
    text-align: center;
+
+   text-decoration: none;
+
    /*margin-right: -22px;*/
    @media screen and (max-width: 768px) {
       display: none;
@@ -105,6 +115,9 @@ export const NavMenu = styled.ul`
 
 export const NavItem = styled.li`
    height: 30px;
+
+   text-decoration: none;
+
 `
 
 export const NavLinks = styled(LinkS)`  /*react scroll link*/
@@ -128,8 +141,12 @@ export const NavLinks = styled(LinkS)`  /*react scroll link*/
        1px 1px 0 #000;
    }
    
+    
 
    &:hover{
+
+      text-decoration: none;
+
       transition: all 0.2 ease-in-out;
       opacity: 0.7;
       -webkit-text-stroke: 1px black;
@@ -160,6 +177,8 @@ export const NavBtn = styled.nav`
    display: flex;
    align-items: center;
    
+   text-decoration: none;
+
    @media screen and (max-width: 768px){
       display:none;
    } 
@@ -176,6 +195,9 @@ export const NavBtnLink = styled(LinkR)`
    cursor: pointer;
    transition: all 0.2 ease-in-out;
    text-decoration: none;
+
+   text-decoration: none;
+
 
    &:hover{
       transition: all 0.2 ease-in-out;

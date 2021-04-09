@@ -8,12 +8,20 @@ export const InfoContainer = styled.div`
    @media screen and (max-width: 768px){
       padding: 100px 0;
    }
+   
+   a{
+      color: RosyBrown;
+   }
+
+   a:hover{
+      color: white;
+   }
 `
 
 export const InfoWrapper = styled.div`
    display: grid;
    z-index:1;
-   height: 750px;
+   height: 950px;
    width: 100%;
    max-width: 1100px;
    margin-right: auto;
@@ -44,7 +52,6 @@ export const Column1 = styled.div`
 
 export const Column2 = styled.div`
    margin-bottom: 15px;
-   padding: 0 15px;
    grid-area: col2;
 `
 
@@ -60,7 +67,7 @@ export const TopLine = styled.p`
    line-height: 16px;
    font-weight: 700;
    letter-spacing: 1.4px;
-   margin-bottom: 16px;
+   margin-bottom: 30px;
 `
 
 export const Heading = styled.h1`
@@ -93,8 +100,10 @@ export const Subtitle2 = styled.p`
 
 export const BtnWrap = styled.div`
 display: flex;
-flex-direction: column;
-align-items: center;
+flex-direction: left;
+align-items: left;
+margin-left: 70px;
+margin-top: -40px;
 `
 
 export const ImgWrap = styled.div`

@@ -20,7 +20,7 @@ export const ExpElementsContainer = styled.div`
    justify-content: center;
    align-items: center;
    padding: 0 30px;
-   height: 700px;
+   height: 800px;
    position: relative;
    }
 
@@ -47,8 +47,12 @@ export const ExpElementsContainer = styled.div`
                      rgba(0,0,0,0), 
                      rgba(0,0,0,0.1));
        
-   @media screen and (max-width: 768px){
+   @media screen and (max-width: 768px) {
+      height: auto;
       padding: 100px 0;
+   }
+   @media screen and (max-width: 480px) {
+      height: 100%;
    }
 `
 
@@ -66,6 +70,7 @@ font-size: 48px;
 margin-bottom: 10px;
 @media screen and (max-width: 480px){
    font-size: 32px;
+   margin-top:32px;
 }
 
 `

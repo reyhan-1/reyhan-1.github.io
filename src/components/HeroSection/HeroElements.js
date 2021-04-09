@@ -61,8 +61,7 @@ export const HeroContainer = styled.div`
       color: black;
     }
    a:link {
-
-      text-decoration: none ;
+      text-decoration: none;
     }
     
    a:hover {

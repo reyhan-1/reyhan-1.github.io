@@ -27,7 +27,8 @@ const InfoSection = ({
    headline,
    darkText, 
    description,
-   description2, 
+   description2,
+   description3, 
    buttonLabel, 
    img, 
    alt, 
@@ -47,7 +48,14 @@ const InfoSection = ({
                         <Subtitle darkText={darkText}>{description}</Subtitle>
                         <Subtitle2>{description2} </Subtitle2> 
                         <TopLine>{topLine}</TopLine>
-                        
+                        <Subtitle2>{description3} </Subtitle2>
+                        <BtnWrap>
+                           <Button to="sketches"
+                           smooth={true}
+                           duration={750}
+                           spy={true}
+                           exact='true'
+                           offset={-60}>{buttonLabel}</Button> </BtnWrap>
                      </TextWrapper>
                   </Column1>
                   
@@ -56,9 +64,6 @@ const InfoSection = ({
                         <Img src={img} alt={alt}/>
                      </ImgWrap>
                   </Column2>
-
-
-
 
                </InfoRow>
             </InfoWrapper>
