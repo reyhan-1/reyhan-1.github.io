@@ -14,13 +14,10 @@ export const ArrowRight = styled(MdKeyboardArrowRight)`
 
 export const ExpElementsContainer = styled.div`
    background-color: #f9f9f9;
-   color: black;   ;
-   position: relative;
-   display: flex;
-   justify-content: center;
+   color: black;  
+   display: grid;
    align-items: center;
-   padding: 0 30px;
-   height: 800px;
+   min-height: 800px;
    position: relative;
    }
 
@@ -32,7 +29,7 @@ export const ExpElementsContainer = styled.div`
     }
     
    a:hover {
-    color:IndianRed;
+    color: CornflowerBlue;
     }
 
    :before {
@@ -47,24 +44,39 @@ export const ExpElementsContainer = styled.div`
                      rgba(0,0,0,0), 
                      rgba(0,0,0,0.1));
        
-   @media screen and (max-width: 768px) {
-      height: auto;
-      padding: 100px 0;
-   }
-   @media screen and (max-width: 480px) {
-      height: 100%;
-   }
 `
 
 
 export const ExpElementsContent = styled.div`
 position: absolute;
+height: 800px;
 padding: 0px 90px;
-display: flex;
-flex-direction: column;
+display: grid;
+
+width: 100%;
+max-width: 1100px;
+margin-right: auto;
+margin-left: auto;
+margin-top: 30px;
+padding: 0 24px;
+justify-content: center;
+
+
 list-style:none;
-   
 `
+export const InfoRow = styled.div`
+   display: grid;
+   grid-auto-columns: minmax(auto, 1fr);
+   align-items: center;
+   grid-template-areas: ${({imgStart}) => (imgStart ? `'col2
+    col1'` : `'col1 col2'`)};
+
+   @media screen and (max-width: 768px){
+      grid-template-areas: ${({imgStart}) => (imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`)};
+      /* */
+   }
+`
+
 export const ExpElementsH1 = styled.h1`
 font-size: 48px;
 margin-bottom: 10px;
@@ -76,7 +88,8 @@ margin-bottom: 10px;
 `
 
 export const ExpElementsP = styled.p`
-font-size: 16px;
+   font-size: 16px;
+
 `
 
 
@@ -90,3 +103,28 @@ export const TopLine = styled.p`
 `
 
 
+export const Column1 = styled.div`
+   margin-bottom: 15px;
+   padding: 0 15px;
+   grid-area: col1;
+`
+
+export const Column2 = styled.div`
+   margin-bottom: 15px;
+   grid-area: col2;
+`
+
+export const TextWrapper = styled.div`
+   max-width: 500px;
+   padding-top: 0;
+   padding-left: 50px;
+`
+
+
+export const ImgWrap = styled.div`
+   max-width: 500px;
+   height: 100%;
+   padding-top: 0;
+   padding-left: 50px;
+   
+`

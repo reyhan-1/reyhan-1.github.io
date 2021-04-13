@@ -150,7 +150,7 @@ export const NavLinks = styled(LinkS)`  /*react scroll link*/
       transition: all 0.2 ease-in-out;
       opacity: 0.7;
       -webkit-text-stroke: 1px black;
-      color: #7FFFD4;
+      color: #C0B8E8;
       text-shadow:
       2px 1.2px 0 #000,
     -1px -1px 0 #000,  

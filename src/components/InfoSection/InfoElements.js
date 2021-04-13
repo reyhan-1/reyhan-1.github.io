@@ -111,11 +111,11 @@ export const ImgWrap = styled.div`
    max-width: 555px;
    height: 100%;
    padding-top: 0;
-   padding-left: 50px;
+   padding-left: 70px;
    
 `
 export const Img = styled.img`
-   width: 85%;/*
+   width: 75%;/*
    margin :0;
    padding-right: 0;
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);

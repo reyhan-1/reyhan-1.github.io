@@ -17,7 +17,7 @@ const Sidebar = ({isOpen, toggle}) => {
                   About
                </SidebarLink>
                <SidebarLink to="discover" onClick={toggle}>
-                  Experience
+                  Education & Experience
                </SidebarLink>
                <SidebarLink to="services" onClick={toggle}>
                   Projects

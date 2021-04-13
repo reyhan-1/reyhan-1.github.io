@@ -35,7 +35,7 @@ const Sketches = () => {
          </SketchesCard>
          <SketchesCard>
             <SketchesPictures src={greg} fluid/>
-            <SketchesP> My illustration of the book The Metamorphosis by Franz Kafka</SketchesP>
+            <SketchesP> My illustration of the book "The Metamorphosis" by Franz Kafka</SketchesP>
          </SketchesCard>
          <SketchesCard>
             <SketchesPictures src={karisik}/>

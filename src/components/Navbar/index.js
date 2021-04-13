@@ -53,7 +53,7 @@ const Navbar = ({toggle}) => {
                         exact='true'
                         offset={-60}
                         >
-                            Experience </NavLinks>
+                            Education & Experience </NavLinks>
                     </NavItem>
                     <NavItem>
                         <NavLinks to='services'

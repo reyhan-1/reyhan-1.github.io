@@ -9,8 +9,8 @@ export const homeObjOne = {
    description: 
       'I am Reyhan, big fan of passport stamps, skywatching enhusiast, equestrian. I was born in Michigan, USA in 1997. ', 
    topLine: 'I am passionate about designing thoughtful solutions to complex problems. ',
-   description2: 'Currently I am studying in Bilkent University in Computer Science Department. ', 
-   description3: 'I fill my free time sketching and water color painting . ',
+   description2: 'Currently I am studying in Bilkent University in Computer Science Department. My industry interests include front-end web development, mobile app development and 3D Graphics.', 
+   description3: 'I fill my free time by sketching and water color painting. ',
    buttonLabel: 'see my skethces here',
    imgStart: false, 
    img: logo,
@@ -30,7 +30,7 @@ export const homeObjThree = {
    topLine: '',
    headline: 'Projects & Research',
    description: 
-      'I fill my free time sketching and water color painting . ', 
+      'I fill my free time by sketching and water color painting. ', 
    buttonLabel: 'see my sketches here',
    imgStart: true, 
    img: logo,
