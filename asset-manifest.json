@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.dfe48510.chunk.css",
-    "main.js": "/static/js/main.f8b46eab.chunk.js",
-    "main.js.map": "/static/js/main.f8b46eab.chunk.js.map",
+    "main.js": "/static/js/main.26fe6f99.chunk.js",
+    "main.js.map": "/static/js/main.26fe6f99.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.04d42429.js",
     "runtime-main.js.map": "/static/js/runtime-main.04d42429.js.map",
     "static/js/2.4f83638e.chunk.js": "/static/js/2.4f83638e.chunk.js",
@@ -16,9 +16,9 @@
     "static/media/icon4.93ac2d9b.png": "/static/media/icon4.93ac2d9b.png",
     "static/media/icon5.9665d284.png": "/static/media/icon5.9665d284.png",
     "static/media/karisik.9a7a9733.JPG": "/static/media/karisik.9a7a9733.JPG",
-    "static/media/karisik2.052191f3.JPG": "/static/media/karisik2.052191f3.JPG",
     "static/media/oldsite.fad838c2.gif": "/static/media/oldsite.fad838c2.gif",
     "static/media/pub.50323bbd.JPG": "/static/media/pub.50323bbd.JPG",
+    "static/media/purple.0fd5fd1e.JPG": "/static/media/purple.0fd5fd1e.JPG",
     "static/media/rey.5067fa6c.png": "/static/media/rey.5067fa6c.png",
     "static/media/sheraton.111caec1.JPG": "/static/media/sheraton.111caec1.JPG"
   },
@@ -26,6 +26,6 @@
     "static/js/runtime-main.04d42429.js",
     "static/js/2.4f83638e.chunk.js",
     "static/css/main.dfe48510.chunk.css",
-    "static/js/main.f8b46eab.chunk.js"
+    "static/js/main.26fe6f99.chunk.js"
   ]
 }
