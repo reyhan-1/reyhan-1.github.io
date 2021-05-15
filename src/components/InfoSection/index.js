@@ -50,12 +50,8 @@ const InfoSection = ({
                         <TopLine>{topLine}</TopLine>
                         <Subtitle2>{description3} </Subtitle2>
                         <BtnWrap>
-                           <Button to="sketches"
-                           smooth={true}
-                           duration={750}
-                           spy={true}
-                           exact='true'
-                           offset={-60}>{buttonLabel}</Button> </BtnWrap>
+                        <a href="https://reyhan-1.github.io/watercolor/" target="myTab">&#160; see my sketches here</a></BtnWrap>
+                                       
                      </TextWrapper>
                   </Column1>
                   

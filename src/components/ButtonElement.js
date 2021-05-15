@@ -5,12 +5,12 @@ export const Button = styled(Link)`
 
    background: ${({primary}) => (primary ? '' : '')};
    white-space: nowrap;
-   padding: ${({big})=> (big ? '14px 48px' : '12px 30px')};
+   padding: ${({big})=> (big ? '14px 48px' : '12px')};
    color: ${({dark})=> (dark ? 'black' : 'blue')};
    font-size ${({fontBig})=> (fontBig ? '20px' : '16px')};
    outline: none;
    border-radius: 20px;
-   border: ${({primary}) => (primary ? '0px solid gray' : '1px solid black')};
+   border: ${({primary}) => (primary ? '2px solid gray' : '2px solid white')};
 
    cursor: pointer;
    display: flex;

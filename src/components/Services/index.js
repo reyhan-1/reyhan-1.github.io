@@ -4,6 +4,7 @@ import Icon2 from '../../images/oldsite.gif'
 import Icon3 from '../../images/icon3.png'
 import Icon4 from '../../images/icon4.png'
 import Icon5 from '../../images/icon5.png'
+import Icon6 from '../../images/paper.gif'
 
 import { 
    ServicesContainer, 
@@ -23,6 +24,12 @@ const Services = () => {
          <ServicesH3> Codes can be found on my <a href="https://github.com/reyhan-1" target="myTab">github page.</a> </ServicesH3> 
          <ServicesWrapper>
          
+         <ServicesCard>
+               <ServicesIcons src={Icon6}/>
+               <ServicesH2> Instagramlike Website</ServicesH2>
+               <ServicesP> for my watercolor paintings using Firebase as a backend server and React in frontend development.</ServicesP>
+            </ServicesCard>
+
             <ServicesCard>
                <ServicesIcons src={Icon2}/> 
                <ServicesH2> Space Themed Website</ServicesH2>

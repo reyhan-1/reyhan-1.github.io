@@ -57,19 +57,21 @@ const ExpElements = () => {
       <ImgWrap> 
          <ExpElementsH1>Experience</ExpElementsH1>
          
-         <li><a href="https://ekin.com/" target="myTab"> Ekin Technology</a></li>
+         <li><a href="https://www.jotform.com/" target="myTab"> JotForm</a></li>
             <ExpElementsP>  
-
-            Part-Time Software Engineer | September 2020 - March 2021   
+            Summer Intern | June 2021 - July 2021   
             </ExpElementsP>
-            <TopLine> Participated in Artificial Intelligence team's deep learning projects from data labeling to model training and testing.  </TopLine>
-
-
+            <TopLine style={{color: 'navy'}}> I will be working as a Frontend Engineer in Web Development Team. </TopLine>
+            
             <li><a href="https://ekin.com/" target="myTab"> Ekin Technology</a></li>
             <ExpElementsP>  
-            Summer Intern | August 2020 - September 2020   
+            Summer Intern -> Part-Time Software Engineer | August 2020 - March 2021  
             </ExpElementsP>
-            <TopLine> Worked in Database team as Full Stack Developer. Developed both client and server sides of the settings page, enhanced sensor page and added new functionalities. </TopLine>
+            <TopLine style={{ color: '#494902' }}> During my summer internship I worked in Database team as Full Stack Developer. Developed both client and server sides of the settings page, enhanced sensor page and added new functionalities. 
+            </TopLine>
+            <TopLine style={{ color: '#494902' }}> 
+            After my internship I started working in Artificial Intelligence team's deep learning projects from data labeling to model training and testing as a part time software engineer.
+            </TopLine>
             
             </ImgWrap>
             </Column2>

@@ -5,6 +5,7 @@ import styled from 'styled-components';
 export const SketchesContainer = styled.div`
    background-color: black;
    color: white;
+   align-items: center;
    position: relative;
    display: flex;
    justify-content: center;
@@ -39,6 +40,7 @@ export const SketchesContainer = styled.div`
 `
 export const SketchesWrapper = styled.div`
    max-width: 1000px;
+   align-items: center;
    display: grid;
    grid-template-columns: 1fr 1fr 1fr 1fr;
    align-items: left;
@@ -67,7 +69,7 @@ export const SketchesWrapper = styled.div`
 export const SketchesContent = styled.div`
 position: absolute;
 padding: 0px 90px;
-
+align-items: center;
 flex-direction: column;
 list-style:none;
    
@@ -78,10 +80,11 @@ color: white;
 
 @media screen and (max-width: 768px){
    margin-left:20px;
+   margin-right:20px;
 }
 
 @media screen and (max-width: 480px){
-   
+   margin-right:20px;
    margin-left:20px;
 }
 
@@ -97,6 +100,7 @@ font-weight: 700;
 letter-spacing: 1.2px;
 margin-bottom: 10px;
 margin-top: 10px;
+align-items: center;
 `
 
 
@@ -107,6 +111,7 @@ export const TopLine = styled.p`
    font-weight: 700;
    letter-spacing: 1.2px;
    margin-bottom: 16px;
+   align-items: center;
 `
 
 
@@ -118,14 +123,15 @@ export const SketchesCard = styled.div`
    height: auto;
    width:auto;
    transition: all 0.2s ease-in-out;
-
-
 `
 
 export const SketchesPictures = styled.img`
    max-height: 300px;
+   align-items: center;
+   max-width: 280px;
    transition: all 0.4s ease-in-out;
   vertical-align: middle;
 
+  
 `
 

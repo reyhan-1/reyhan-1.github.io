@@ -10,6 +10,7 @@ export const ArrowForward = styled(MdArrowForward)`
 export const ArrowRight = styled(MdKeyboardArrowRight)`
    margin-left: 8px;
    font-size: 20px;
+
 `
 
 
@@ -24,8 +25,7 @@ export const Img = styled.img`
    margin :0;
    padding-right: 0;
    padding: 1em;
-   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-   
+
 `
 
 export const HeroContainer = styled.div`
@@ -34,6 +34,7 @@ export const HeroContainer = styled.div`
    /* For browsers that do not support gradients 
    background: linear-gradient(to bottom, #372f6a, #372f6a, darkslateblue, #396a93, SteelBlue, #7eaacd, #91b6d4);
    */  
+   font-family: 'Montserrat', sans-serif;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -123,6 +124,5 @@ export const HeroP = styled.h1`
 export const HeroBtnWrapper = styled.div`
    margin-top: 32px;
    flex-direction: column;
-   border-radius: 100px;
 `
 

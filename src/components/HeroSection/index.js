@@ -37,7 +37,7 @@ const HeroSection = () => {
  
    return (
       <HeroContainer>
-         <ParticlesBg type="cobweb"  num={35} bg={true} />
+         <ParticlesBg type="cobweb"  num={25} bg={true} />
          <HeroContent >
             
             <HeroH1> Hi! I'm Reyhan </HeroH1> 
