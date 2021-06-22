@@ -49,8 +49,9 @@ const InfoSection = ({
                         <Subtitle2>{description2} </Subtitle2> 
                         <TopLine>{topLine}</TopLine>
                         <Subtitle2>{description3} </Subtitle2>
-                        <BtnWrap>
-                        <a href="https://reyhan-1.github.io/watercolor/" target="myTab">&#160; see my sketches here</a></BtnWrap>
+                        
+                        <BtnWrap> • see my sketches
+                        <a href="https://reyhan-1.github.io/watercolor/" target="myTab">&#160;  here ! </a></BtnWrap>
                                        
                      </TextWrapper>
                   </Column1>

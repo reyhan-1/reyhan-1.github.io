@@ -61,11 +61,11 @@ const ExpElements = () => {
             <ExpElementsP>  
             Summer Intern | June 2021 - July 2021   
             </ExpElementsP>
-            <TopLine style={{color: 'navy'}}> I will be working as a Frontend Engineer in Web Development Team. </TopLine>
+            <TopLine style={{color: 'navy'}}> I am working as a Frontend Engineer in Enterprise Team, developing new functionalities to enterprise admin page. </TopLine>
             
             <li><a href="https://ekin.com/" target="myTab"> Ekin Technology</a></li>
             <ExpElementsP>  
-            Summer Intern -> Part-Time Software Engineer | August 2020 - March 2021  
+            Summer Intern -&gt; Part-Time Software Engineer | August 2020 - March 2021  
             </ExpElementsP>
             <TopLine style={{ color: '#494902' }}> During my summer internship I worked in Database team as Full Stack Developer. Developed both client and server sides of the settings page, enhanced sensor page and added new functionalities. 
             </TopLine>

@@ -7,7 +7,7 @@
 import React, {useState} from 'react';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab,faInstagram, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
-import { faGraduationCap, faMapMarkerAlt, faPlane,faEnvelope, faPaperPlane, faFile  } from '@fortawesome/free-solid-svg-icons'
+import { faGraduationCap, faBriefcase, faMapMarkerAlt, faPlane,faEnvelope, faPaperPlane, faFile, faLaptop  } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {Button} from '../ButtonElement'
 import {
@@ -33,7 +33,7 @@ const HeroSection = () => {
       setHover(!hover)
    }
 
-   library.add(fab, faInstagram, faEnvelope, faPaperPlane, faLinkedin, faGithub, faGraduationCap, faFile, faMapMarkerAlt, faPlane);
+   library.add(fab, faInstagram, faBriefcase, faLaptop, faEnvelope, faPaperPlane, faLinkedin, faGithub, faGraduationCap, faFile, faMapMarkerAlt, faPlane);
  
    return (
       <HeroContainer>
@@ -42,10 +42,14 @@ const HeroSection = () => {
             
             <HeroH1> Hi! I'm Reyhan </HeroH1> 
             <HeroP> 
-            <FontAwesomeIcon icon="graduation-cap"/> CS student @ 
+            <FontAwesomeIcon icon="graduation-cap"/> alum @ 
         <a  href="https://w3.bilkent.edu.tr/bilkent/" target="myTab"> Bilkent University</a>
             </HeroP>
 
+            <HeroP> 
+            <FontAwesomeIcon icon="briefcase" /> summer intern @ 
+        <a  href="https://www.jotform.com/" target="myTab"> Jotform</a>
+            </HeroP>
 
             <HeroP> 
             <FontAwesomeIcon icon="map-marker-alt"/>     

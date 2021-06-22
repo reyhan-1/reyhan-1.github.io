@@ -11,8 +11,10 @@ export const InfoContainer = styled.div`
    }
    
    a{
-      font-size: 14px;
+      font-size: 20px;
       color: RosyBrown;
+      text-decoration: underline;
+      
    }
 
    a:hover{
@@ -115,9 +117,9 @@ export const Subtitle2 = styled.p`
 `
 
 export const BtnWrap = styled.div`
-display: flex;
-flex-direction: left;
-align-items: left;
+   display: flex;
+   flex-direction: left;
+   align-items: center;
 
 `
 
@@ -131,9 +133,9 @@ export const ImgWrap = styled.div`
    
 `
 export const Img = styled.img`
-   width: 75%;/*
+   width: 80%;/*
    margin :0;
-   padding-right: 0;
+   padding-right: 10px;
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
    */
 
@@ -143,12 +145,17 @@ export const Img = styled.img`
   
   @media screen and (max-width: 1280px){
       
-   width: 60%;
+   width: 80%;
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 760px){
       
-   width: 75%;
+   width: 50%;
+}
+
+@media screen and (max-width: 360px){
+      
+   width: 20%;
 }
 `
 
