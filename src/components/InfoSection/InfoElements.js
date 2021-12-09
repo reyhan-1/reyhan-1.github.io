@@ -21,10 +21,29 @@ export const InfoContainer = styled.div`
       color: white;
    }
 
-
    a:link {
       text-decoration: none;
     }
+    .custom-shape-divider-bottom-1631006832 {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      overflow: hidden;
+      line-height: 0;
+      transform: rotate(180deg);
+  }
+  
+  .custom-shape-divider-bottom-1631006832 svg {
+      position: relative;
+      display: block;
+      width: calc(100% + 1.3px);
+      height: 88px;
+  }
+  
+  .custom-shape-divider-bottom-1631006832 .shape-fill {
+      fill: #F9F9F9;
+  }
 `
 
 export const InfoWrapper = styled.div`
@@ -126,11 +145,7 @@ export const BtnWrap = styled.div`
 export const ImgWrap = styled.div`
    max-width: 555px;
    height: 100%;
-   padding-top: 0;
-   padding-left: 60px;
-
-
-   
+   margin-left: 60px;
 `
 export const Img = styled.img`
    width: 80%;/*
@@ -138,23 +153,19 @@ export const Img = styled.img`
    padding-right: 10px;
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
    */
-
    background: #fff;
   padding: 0.2em;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   
   @media screen and (max-width: 1280px){
-      
    width: 80%;
 }
 
 @media screen and (max-width: 760px){
-      
    width: 50%;
 }
 
 @media screen and (max-width: 360px){
-      
    width: 20%;
 }
 `

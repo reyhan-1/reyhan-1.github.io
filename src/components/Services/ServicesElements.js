@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const ServicesContainer = styled.div`
-   height: 800px;
+   min-height: 800px;
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -12,9 +12,27 @@ export const ServicesContainer = styled.div`
    display: flex;
    justify-content: center;
    align-items: center;
-
    position: relative;
 
+   .custom-shape-divider-top-1631009843 {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      overflow: hidden;
+      line-height: 0;
+  }
+  
+  .custom-shape-divider-top-1631009843 svg {
+      position: relative;
+      display: block;
+      width: calc(100% + 1.3px);
+      height: 88px;
+  }
+  
+  .custom-shape-divider-top-1631009843 .shape-fill {
+      fill: white;
+  }
 
    @media screen and (max-width: 1000px) {
       height: auto;
@@ -104,12 +122,11 @@ export const ServicesH1 = styled.h1`
    color: #fff;
    align-self:center;
    padding: 0px;
-
+   margin-top:120px;
    @media screen and (max-width: 1000px) {
       font-size: 2.5rem;
 
    } 
-
    @media screen and (max-width: 480px) {
       font-size: 2.5rem;
 

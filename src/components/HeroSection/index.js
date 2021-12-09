@@ -36,7 +36,9 @@ const HeroSection = () => {
    library.add(fab, faInstagram, faBriefcase, faLaptop, faEnvelope, faPaperPlane, faLinkedin, faGithub, faGraduationCap, faFile, faMapMarkerAlt, faPlane);
  
    return (
+      
       <HeroContainer>
+
          <ParticlesBg type="cobweb"  num={25} bg={true} />
          <HeroContent >
             
@@ -47,17 +49,17 @@ const HeroSection = () => {
             </HeroP>
 
             <HeroP> 
-            <FontAwesomeIcon icon="briefcase" /> summer intern @ 
-        <a  href="https://www.jotform.com/" target="myTab"> Jotform</a>
+            <FontAwesomeIcon icon="briefcase" /> Software Engineer @ 
+        <a  href="https://www.uplight.com/" target="myTab"> Uplight</a>
             </HeroP>
 
             <HeroP> 
             <FontAwesomeIcon icon="map-marker-alt"/>     
-        <text  style={{ color: 'black' }} > &#160;Ankara, Turkey</text> </HeroP> 
+        <text  style={{ color: 'black' }} > &#160;Boston, MA</text> </HeroP>  
             
             <HeroP>
             <FontAwesomeIcon icon="envelope"/> 
-        <a href="mailto:reyhanuyanik@icloud.com">&#160; reyhanuyanik@icloud.com </a>
+        <a href="mailto:reyhan.uyanik@uplight.com">&#160; reyhan.uyanik@uplight.com </a>
             </HeroP>
 
             <HeroP> 
@@ -94,9 +96,14 @@ const HeroSection = () => {
                > more about me {hover ? <ArrowForward /> : <ArrowRight/> } 
                </Button>
             </HeroBtnWrapper>
-            
          </HeroContent>
+         <div class="custom-shape-divider-bottom-1631006309">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M598.97 114.72L0 0 0 120 1200 120 1200 0 598.97 114.72z" class="shape-fill"></path>
+    </svg>
+</div>
       </HeroContainer>
+      
    )
 }
 

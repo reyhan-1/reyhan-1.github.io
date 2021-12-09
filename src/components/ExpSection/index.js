@@ -12,8 +12,8 @@ import { ExpElementsContainer,
 const ExpElements = () => {
 
    return (
+      
       <ExpElementsContainer id="discover"> 
-
       <ExpElementsContent>  
          <InfoRow>
             <Column1> 
@@ -56,12 +56,19 @@ const ExpElements = () => {
       <Column2> 
       <ImgWrap> 
          <ExpElementsH1>Experience</ExpElementsH1>
+
+         <li><a href="https://www.uplight.com/" target="myTab"> Uplight</a></li>
+            <ExpElementsP>  
+            Associate Software Engineer | December 2021  
+            </ExpElementsP>
+            <TopLine style={{color: 'navy'}}>  </TopLine>
+            
          
          <li><a href="https://www.jotform.com/" target="myTab"> JotForm</a></li>
             <ExpElementsP>  
             Summer Intern | June 2021 - July 2021   
             </ExpElementsP>
-            <TopLine style={{color: 'navy'}}> I am working as a Frontend Engineer in Enterprise Team, developing new functionalities to enterprise admin page. </TopLine>
+            <TopLine style={{color: 'navy'}}> I worked as a Frontend Engineer in Enterprise Team, developed advanced settings in which user is able to change theme, add/remove notification emails, enable/disable forms. </TopLine>
             
             <li><a href="https://ekin.com/" target="myTab"> Ekin Technology</a></li>
             <ExpElementsP>  
@@ -76,12 +83,9 @@ const ExpElements = () => {
             </ImgWrap>
             </Column2>
             </InfoRow>
-           
          </ExpElementsContent>
-         
-
       </ExpElementsContainer>
-      
+
    )
 }
 

@@ -13,12 +13,13 @@ export const ArrowRight = styled(MdKeyboardArrowRight)`
 `*/
 
 export const ExpElementsContainer = styled.div`
-   background-color: #f9f9f9;
+   background-color: #FFFFFF;
    color: black;  
    display: grid;
    align-items: center;
    min-height: 800px;
    position: relative;
+   margin-bottom:-250px;
 
    @media screen and (max-width: 1280px){
       height:1000px;
@@ -26,7 +27,7 @@ export const ExpElementsContainer = styled.div`
 
 
    @media screen and (max-width: 760px){
-      height:1050px;
+      height:1250px;
                      }
 
    @media screen and (max-width: 480px){
@@ -47,40 +48,22 @@ export const ExpElementsContainer = styled.div`
     
    a:hover {
     color: CornflowerBlue;
-    }
-
-   :before {
-      content: '';
-      position: absolute;
-      top:0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background: 
-      linear-gradient(60deg, 
-                     rgba(0,0,0,0), 
-                     rgba(0,0,0,0.1));
-
-               
-       
+    }            
 `
-
 
 export const ExpElementsContent = styled.div`
 position: absolute;
 min-height: 800px;
-display: grid;
-width: 100%;
 max-width: 1100px;
 margin-right: auto;
    font-family: "Montserrat";
 margin-left: auto;
-margin-top: 30px;
 padding: 0 24px;
 justify-content: center;
 list-style:none;
-
+margin-bottom:-50px;
 `
+
 export const InfoRow = styled.div`
    display: grid;
    grid-auto-columns: minmax(auto, 1fr);
@@ -92,7 +75,9 @@ export const InfoRow = styled.div`
       grid-template-areas: ${({imgStart}) => (imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`)};
       height: 
    }
-
+   @media screen and (max-width: 760px){
+      margin-top:-150px;
+                     }
 `
 
 export const ExpElementsH1 = styled.h1`
@@ -108,9 +93,7 @@ export const ExpElementsP = styled.p`
    font-size: 16px;
       font-family: "Montserrat";
       font-weight: 800;
-  
 `
-
 
 export const TopLine = styled.p`
    color: #666600;
@@ -119,16 +102,14 @@ export const TopLine = styled.p`
    font-weight: 700;
    letter-spacing: 1.2px;
    margin-bottom: 16px;
-   font-family: "Montserrat";
-   
+   font-family: "Montserrat";   
 `
 
-
 export const Column1 = styled.div`
-   margin-bottom: 15px;
+   margin-bottom: 5px;
    padding: 0 15px;
    grid-area: col1;
-   margin-left:-10px;
+   margin-left: 40px;
 `
 
 export const Column2 = styled.div`
@@ -140,9 +121,9 @@ export const TextWrapper = styled.div`
 max-width: 500px;
 height: 100%;
 padding-left: 50px;
+padding: 0 15px;
 
 `
-
 
 export const ImgWrap = styled.div`
 max-width: 500px;
