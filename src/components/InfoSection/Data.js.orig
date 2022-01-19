@@ -9,7 +9,11 @@ export const homeObjOne = {
    description: 
       'I am Reyhan, big fan of passport stamps and skywatching. ', 
    topLine: 'I am passionate about designing thoughtful solutions to complex problems. ',
+<<<<<<< HEAD
+   description2: 'I received my B.S. degree in computer science from Bilkent University, Ankara, Turkey, in 2021. Currently I am working as a associatesoftware engineer at Uplight. My industry interests include front-end web development, mobile app development and 3D Graphics.', 
+=======
    description2: 'I received my B.S. degree in computer science from Bilkent University, Ankara, Turkey, in 2021. Currently I am junior software engineer at Uplight. My industry interests include front-end web development, mobile app development and 3D Graphics.', 
+>>>>>>> a4e48102382962430503fc2aabbbdd7c867b5deb
    description3: 'I fill my free time by obsessing about art history, skywatching, sketching and water color painting. Will draw for a coffee, feel free to contact me! ',
    buttonLabel: 'you can see some of my skethces here',
    imgStart: false, 
