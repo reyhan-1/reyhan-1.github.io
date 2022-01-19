@@ -49,7 +49,7 @@ const HeroSection = () => {
             </HeroP>
 
             <HeroP> 
-            <FontAwesomeIcon icon="briefcase" /> Software Engineer @ 
+            <FontAwesomeIcon icon="briefcase" /> Junior Software Engineer @ 
         <a  href="https://www.uplight.com/" target="myTab"> Uplight</a>
             </HeroP>
 
