@@ -1,4 +1,1 @@
-# Hello! This is my personal web site. 
-you can visit [here](http://reyhan-1.github.io/).
-implemented using react and styled components. fully responsive. 
-feel free to fork and use for your projects. 
+# Hello! This website is getting freshen up and will be back in 3D!! 
