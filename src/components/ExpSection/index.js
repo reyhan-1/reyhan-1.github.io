@@ -95,14 +95,14 @@ Skills: Python, Machine Learning, Data Analysis, PyTorch.
 
             <TextWrapper>  
             <ExpElementsH1 style={{ fontFamily: 'Acme' }}>Education</ExpElementsH1>
-            <li><a href="https://w3.bilkent.edu.tr/bilkent/" target="myTab"> Bilkent University </a></li>
-            <ExpElementsP  style={{ color: 'white' }} >  
+            <a href="https://w3.bilkent.edu.tr/bilkent/" target="myTab"> Bilkent University </a>
+            <ExpElementsP  style={{ color: 'white', fontFamily: 'Acme' }} >  
             B.S. Computer Science          <date style={{
             fontSize: '0.8rem',
             color: 'rgb(242, 121, 121)',
-            fontStyle: 'italic'}}> August 2021 </date>
+            fontStyle: 'italic', fontFamily: 'Acme'}}> August 2021 </date>
             </ExpElementsP>
-            <ExpElementsP  style={{ color: 'white' }} >  
+            <ExpElementsP  style={{ fontFamily: 'Acme', fontSize: '1rem', color: 'white' }} >  
             Coursework    
             </ExpElementsP>
             <TopLine> 
@@ -114,17 +114,6 @@ Skills: Python, Machine Learning, Data Analysis, PyTorch.
             • Software Engineering Project Management<br /> 
             • Computer Vision<br /> 
             • Linear Programming<br />
-            </TopLine>
-            <ExpElementsP  style={{ color: 'white' }} >  
-            Skills    
-            </ExpElementsP>
-            <TopLine style={{ color: 'white' }}> 
-            Java,   
-            JavaScript (React, TypeScript, NodeJS, NestJS),   
-            WebGL,
-            SQL,
-            MongoDB,
-            HTML/CSS
             </TopLine>
             </TextWrapper>
          </ExpElementsContent>
