@@ -13,7 +13,7 @@ text-decoration: none;
    position: sticky;
    top: 0;
    z-index: 10;
-   background: #f0f0f0;
+   background: black;
    @media screen and (max-width: 960px){
       transition: 0.8 all ease;
    }
@@ -46,40 +46,21 @@ export const NavbarContainer = styled.div`
 `
 
 export const NavLogo = styled(LinkR)`
-
    justify-self: flex-start;
    cursor:pointer;
    font-size: 1.5rem;
    display: flex;
    align-items: center;
    margin-left: 10px;
-   font-weight: bold;
+   margin-top: -20px;
    text-decoration: none;
-
-   -webkit-text-stroke: 1px black;
-   color: white;
-   text-shadow:
-       3px 3px 0 #000,
-     -1px -1px 0 #000,  
-      1px -1px 0 #000,
-      -1px 1px 0 #000,
-       1px 1px 0 #000;
+   color: rgb(242, 121, 121);
+   font-family: "Acme";
 
    &:hover {
-      
       opacity: 1;
-
       text-decoration: none;
-
-      -webkit-text-stroke: 1px black;
-      color: #C0B8E8;
-      text-shadow:
-          3px 3px 0 #000,
-        -1px -1px 0 #000,  
-         1px -1px 0 #000,
-         -1px 1px 0 #000,
-          1px 1px 0 #000;
-      }
+   }
 `
 
 export const MobileIcon = styled.div`
@@ -114,60 +95,27 @@ export const NavMenu = styled.ul`
 
 export const NavItem = styled.li`
    height: 30px;
-
    text-decoration: none;
-
 `
 
 export const NavLinks = styled(LinkS)`  /*react scroll link*/
-   margin-top: 0;
-   opacity: 0.5;
+   margin-top: -10px;
    display: flex;
    align-items: center;
    text-decoration: none;
    padding: 0 1rem;
    height: 100%;
    cursor: pointer;
-   font-weight: bolder;
-
-   -webkit-text-stroke: 0.5px black;
    color: white;
-   text-shadow:
-       2px 1.2px 0 #000,
-     -1px -1px 0 #000,  
-      1px -1px 0 #000,
-      -1px 1px 0 #000,
-       1px 1px 0 #000;
-   }
-   
-    
 
    &:hover{
 
       text-decoration: none;
-
-      transition: all 0.2 ease-in-out;
-      opacity: 0.7;
-      -webkit-text-stroke: 1px black;
-      color: #C0B8E8;
-      text-shadow:
-      2px 1.2px 0 #000,
-    -1px -1px 0 #000,  
-     1px -1px 0 #000,
-     -1px 1px 0 #000,
-      1px 1px 0 #000;
+      color: #17f5f5;
    }
 
    &.active {
-      opacity: 0.7;
-      -webkit-text-stroke: 1px black;
-      color: #7FFFD4;
-      text-shadow:
-      2px 1.2px 0 #000,
-    -1px -1px 0 #000,  
-     1px -1px 0 #000,
-     -1px 1px 0 #000,
-      1px 1px 0 #000;
+      color: rgb(242, 121, 121);
    }
    
 `

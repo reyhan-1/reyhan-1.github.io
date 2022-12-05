@@ -3,9 +3,9 @@ import styled from 'styled-components'
 
 export const InfoContainer = styled.div`
    color:#fff;
-   padding-top: -60px;
-   background: ${({lightBg}) => (lightBg ? '#f9f9f9' : '#010606')};
-   
+   background: ${({lightBg}) => (lightBg ? 'white' : 'black')};
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Acme, Verdana, sans-serif;
+
    @media screen and (max-width: 768px){
       height:1000px;
    }
@@ -24,39 +24,30 @@ export const InfoContainer = styled.div`
    a:link {
       text-decoration: none;
     }
-    .custom-shape-divider-bottom-1631006832 {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      width: 100%;
-      overflow: hidden;
-      line-height: 0;
-      transform: rotate(180deg);
-  }
-  
-  .custom-shape-divider-bottom-1631006832 svg {
-      position: relative;
-      display: block;
-      width: calc(100% + 1.3px);
-      height: 88px;
-  }
-  
-  .custom-shape-divider-bottom-1631006832 .shape-fill {
-      fill: #F9F9F9;
-  }
+    
 `
 
 export const InfoWrapper = styled.div`
    display: grid;
    z-index:1;
-   height: 800px;
-   width: 100%;
+   height: 900px;
    max-width: 1100px;
    margin-right: auto;
    margin-left: auto;
-   padding-top: 610px;
-   padding: 0 24px;
-   justify-content: center;
+   padding-top: 100px;
+
+   a{
+      color: black;
+      margin-left: 20px;
+   }
+
+   a:link {
+      text-decoration: none;
+    }
+    
+   a:hover {
+    color:IndianRed;
+   }
 `
 
 export const InfoRow = styled.div`
@@ -84,13 +75,29 @@ export const Column2 = styled.div`
 `
 
 export const TextWrapper = styled.div`
-   max-width: 350px;
+   max-width: 550px;
    padding-top: 0;
    padding-left: 50px;
+
+   a{
+      font-size: 20px;
+      color: black;
+      text-decoration: underline;
+      padding-left: 10px;
+      padding-right: 10px;
+   }
+
+   a:hover{
+      color: RosyBrown;
+   }
+
+   a:link {
+      text-decoration: none;
+    }
 `
 
 export const TopLine = styled.p`
-   color: #FF9999;
+   color: black;
    font-size: 16px;
    font-family: "Montserrat";
    line-height: 16px;
@@ -104,7 +111,7 @@ export const Heading = styled.h1`
    font-size: 48px;
    line-height: 1.1;
    font-weight: 600;
-   color: ${({lightText}) => (lightText ? 'white' : 'black')};
+   color: black;
 
    @media screen and (max-width: 480px){
       font-size: 32px;
@@ -118,22 +125,24 @@ export const Heading = styled.h1`
 `
 
 export const Subtitle = styled.p`
-   max-width: 440px;
+   min-width: 500px;
    margin-bottom: 35px;
-   font-size: 18px;
+   font-size: 26px;
    line-height: 24px;
    font-family: "Montserrat";
-   color: ${({darkText}) => (darkText ? 'black' : 'white')};
+   color: black;
+
 `
 
 export const Subtitle2 = styled.p`
-   max-width: 440px;
-   margin-bottom: 35px;
-   font-size: 16px;
+   max-width: 840px;
+   min-width: 500px;
+   font-size: 20px;
    font-family: "Montserrat";
    line-height:24px;
-   color: white;
+   color: black;
 `
+
 
 export const BtnWrap = styled.div`
    display: flex;
@@ -148,14 +157,10 @@ export const ImgWrap = styled.div`
    margin-left: 60px;
 `
 export const Img = styled.img`
-   width: 80%;/*
-   margin :0;
-   padding-right: 10px;
-   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-   */
+   width: 80%;
    background: #fff;
-  padding: 0.2em;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   padding: 0.2em;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   
   @media screen and (max-width: 1280px){
    width: 80%;

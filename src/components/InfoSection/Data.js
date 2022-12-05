@@ -5,37 +5,15 @@ export const homeObjOne = {
    lightBg: false,
    lightText: true,
    lightTextDesc: false,
-   headline: 'About Me',
+   headline: 'Hi There!',
    description: 
-      'I am Reyhan, big fan of passport stamps and skywatching. ', 
-   topLine: 'I am passionate about designing thoughtful solutions to complex problems. ',
-   description2: 'I received my B.S. degree in computer science from Bilkent University, Ankara, Turkey, in 2021. Currently I am junior software engineer at Uplight. My industry interests include front-end web development, mobile app development and 3D Graphics.', 
-   description3: 'I fill my free time by obsessing about art history, skywatching, sketching and water color painting. Will draw for a coffee, feel free to contact me! ',
-   buttonLabel: 'you can see some of my skethces here',
+      'I am Reyhan, a curious software engineer based in Boston, Massachusetts.', 
+      description2: 
+      'As a software engineer I am interested in solving problems through different levers. In my free time, I avidly read various non-fiction subjects including psychology, sociology, economics, and history and synthesize these complementary subjects into my technical and non-technical solutions. Outside work I love to explore, travel and paint.',
    imgStart: false, 
    img: logo,
    alt: 'reyhan', 
    dark: true,
    primary: true,
    darkText: false
-};
-
-
-
-export const homeObjThree = {
-   id: 'services', 
-   lightBg: true,
-   lightText: false,
-   lightTextDesc: false,
-   topLine: '',
-   headline: 'Projects & Research',
-   description: 
-      'I fill my free time by sketching and water color painting. ', 
-   buttonLabel: 'you can see some of my sketches here',
-   imgStart: true, 
-   img: logo,
-   alt: 'reyhan',
-   dark: true,
-   primary: false,
-   darkText: true
 };

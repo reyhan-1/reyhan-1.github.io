@@ -37,7 +37,7 @@ const InfoSection = ({
    dark2}) => {
    return (
       <>
-         <InfoContainer lightBg={lightBg} id={id}>
+         <InfoContainer lightBg={!lightBg} id={id}>
             <InfoWrapper>
                <InfoRow imgStart={imgStart}>
                   <Column1>
@@ -46,9 +46,10 @@ const InfoSection = ({
                         <Subtitle darkText={darkText}>{description}</Subtitle>
                         <Subtitle2>{description2} </Subtitle2> 
                         <TopLine>{topLine}</TopLine>
-                        <Subtitle2>{description3} </Subtitle2>
-                        <BtnWrap> • see my sketches
-                        <a href="https://reyhan-1.github.io/watercolor/" target="myTab">&#160;  here ! </a></BtnWrap>
+                        <a href="https://www.linkedin.com/reyhan-uyanik"> linkedin </a>
+                        <a href="https://github.com/reyhan-1"> github </a> 
+                        <a href="https://reyhan-1.github.io/resume/"> resume </a> 
+                        <a href="mailto:reyhanuyanik@icloud.com"> email </a> 
                      </TextWrapper>
                   </Column1>
                   
@@ -60,13 +61,6 @@ const InfoSection = ({
                </InfoRow>
             </InfoWrapper>
          </InfoContainer>
-         <div>                
-         <div class="custom-shape-divider-bottom-1631006832">
-    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-        <path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
-    </svg>
-</div>
-</div>
       </>
    )
 }

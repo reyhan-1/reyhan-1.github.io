@@ -30,7 +30,7 @@ const Navbar = ({toggle}) => {
      <>
         <Nav> 
             <NavbarContainer>
-                <NavLogo to= "/ " onClick={toggleHome}> RU </NavLogo> 
+                <NavLogo to= "/ " onClick={toggleHome}> REYHAN UYANIK </NavLogo> 
                 <MobileIcon onClick={toggle}> 
                     <FaBars />
                 </MobileIcon>

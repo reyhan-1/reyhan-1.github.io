@@ -6,12 +6,9 @@ export const ServicesContainer = styled.div`
    flex-direction: column;
    justify-content: center;
    align-items:center;
-   padding: 82px 30px;
-   background: black;
+   padding-bottom: 50px;
    background: linear-gradient(to top, black,  #494902);
    display: flex;
-   justify-content: center;
-   align-items: center;
    position: relative;
 
    .custom-shape-divider-top-1631009843 {
@@ -65,9 +62,7 @@ export const ServicesWrapper = styled.div`
    grid-template-columns: 1fr 1fr 1fr 1fr;
    align-items: left;
    grid-gap: 16px;
-   padding: 10 50px;
 
-   
 
    @media screen and (max-width: 1000px) {
       grid-template-columns: 1fr 1fr 1fr;
@@ -133,6 +128,7 @@ export const ServicesH1 = styled.h1`
    }
 `
 export const ServicesH2 = styled.h2`
+   position:center;
    font-size: 0.8rem;
    margin-bottom: 0.1em;
    text-align: center;
@@ -151,5 +147,4 @@ export const ServicesH3 = styled.h1`
 export const ServicesP = styled.p`
    font-size: 0.8rem;
    text-align:center;
-   //padding:50px 0 50px;
 `

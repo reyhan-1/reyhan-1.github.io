@@ -1,9 +1,8 @@
 import React from 'react'
-import Icon1 from '../../images/icon1.png'
-import Icon2 from '../../images/oldsite.gif'
-import Icon3 from '../../images/icon3.png'
-import Icon4 from '../../images/icon4.png'
-import Icon5 from '../../images/icon5.png'
+import Icon1 from '../../images/defender.png'
+import Icon3 from '../../images/poker.png'
+import Icon4 from '../../images/shipit.png'
+import Icon5 from '../../images/netflix.png'
 import Icon6 from '../../images/paper.gif'
 
 import { 
@@ -20,42 +19,24 @@ import {
 const Services = () => {
    return (
       <ServicesContainer id="services">
-<div class="custom-shape-divider-top-1631009843">
-    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-        <path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
-    </svg>
-</div>
-         <ServicesH1>Projects</ServicesH1>
+         <ServicesH1 style={ {fontFamily: "Acme"}}>Projects</ServicesH1>
          <ServicesH3> Codes can be found on my <a href="https://github.com/reyhan-1" target="myTab">github page.</a> </ServicesH3> 
          <ServicesWrapper>
          
          <ServicesCard>
                <ServicesIcons src={Icon6}/>
                <ServicesH2> Instagramlike Website</ServicesH2>
-               <ServicesP> for my watercolor paintings using Firebase as a backend server and React in frontend development.</ServicesP>
-            </ServicesCard>
-
-            <ServicesCard>
-               <ServicesIcons src={Icon2}/> 
-               <ServicesH2> Space Themed Website</ServicesH2>
-               <ServicesP> You can access online <a style={{ color: 'black' }} href="https://reyhan-1.github.io/space-website/" target="myTab">here </a>   </ServicesP>
+               <ServicesP> for my watercolor paintings using Firebase as a backend server and React in frontend.</ServicesP>
             </ServicesCard>
             <ServicesCard>
                <ServicesIcons src={Icon3}/>
                <ServicesH2>Poker Game</ServicesH2>
-               <ServicesP>  A 3D Poker Game implemented with Unreal Engine</ServicesP>
+               <ServicesP>  A 3D Poker Game implemented with Unreal Engine.</ServicesP>
             </ServicesCard>
             <ServicesCard>
                <ServicesIcons src={Icon4}/>
                <ServicesH2>Shipit</ServicesH2>
-               <ServicesP>  A Spring based shipping company website</ServicesP>
-            </ServicesCard>
-
-
-        
-            <ServicesCard>
-               <ServicesH2>Battleship Game</ServicesH2>
-               <ServicesP> Basic implemenation of battleship game in Java.</ServicesP>
+               <ServicesP>  A Spring based shipping company website.</ServicesP>
             </ServicesCard>
 
             <ServicesCard>
@@ -73,7 +54,7 @@ const Services = () => {
             <ServicesCard>
                <ServicesIcons src={Icon5}/>
                <ServicesH2>Login</ServicesH2>
-               <ServicesP> Netflix login and sign up page for Selenium Testing</ServicesP>
+               <ServicesP> Netflix login and sign up page for Selenium Testing.</ServicesP>
             </ServicesCard>
          
                
