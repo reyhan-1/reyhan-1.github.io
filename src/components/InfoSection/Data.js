@@ -5,11 +5,15 @@ export const homeObjOne = {
    lightBg: false,
    lightText: true,
    lightTextDesc: false,
-   headline: 'Hi There!',
+   headline: 'Hi, I am Reyhan!',
    description: 
-      'I am Reyhan, a curious software engineer based in Boston, Massachusetts.', 
-      description2: 
-      'As a software engineer I am interested in solving problems through different levers. In my free time, I avidly read various non-fiction subjects including psychology, sociology, economics, and history and synthesize these complementary subjects into my technical and non-technical solutions. Outside work I love to explore, travel and paint.',
+      'I am Reyhan, a curious software engineer.', 
+   description2: 
+      'As a software engineer I am passionate about solving problems through different levers.',
+   description3:
+   'My academic and industry interests include full stack development, automation, software engineering project management.',
+   description4: 
+   ' I love using my technical skills for a good cause such as the environment.',
    imgStart: false, 
    img: logo,
    alt: 'reyhan', 

@@ -11,6 +11,7 @@ import {
    TopLine,
    Heading,
    Subtitle, 
+   SubtitleBold,
    BtnWrap, 
    ImgWrap, 
    Img ,
@@ -43,8 +44,8 @@ const InfoSection = ({
                   <Column1>
                      <TextWrapper>
                         <Heading lightText={lightText}>{headline}</Heading>
-                        <Subtitle darkText={darkText}>{description}</Subtitle>
-                        <Subtitle2>{description2} </Subtitle2> 
+                        <SubtitleBold >{description2} </SubtitleBold>
+                        <Subtitle2>{description3}</Subtitle2>
                         <TopLine>{topLine}</TopLine>
                         <a href="https://www.linkedin.com/reyhan-uyanik"> linkedin </a>
                         <a href="https://github.com/reyhan-1"> github </a> 

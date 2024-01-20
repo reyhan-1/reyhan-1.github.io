@@ -74,6 +74,7 @@ export const Column2 = styled.div`
    grid-area: col2;
 `
 
+
 export const TextWrapper = styled.div`
    max-width: 550px;
    padding-top: 0;
@@ -131,7 +132,6 @@ export const Subtitle = styled.p`
    line-height: 24px;
    font-family: "Montserrat";
    color: black;
-
 `
 
 export const Subtitle2 = styled.p`
@@ -140,7 +140,17 @@ export const Subtitle2 = styled.p`
    font-size: 20px;
    font-family: "Montserrat";
    line-height:24px;
-   color: black;
+   color: black; 
+`
+
+export const SubtitleBold = styled.p`
+   max-width: 840px;
+   min-width: 500px;
+   font-size: 20px;
+   font-family: "Montserrat";
+   line-height:24px;
+   color: black; 
+   font-weight: 700;
 `
 
 

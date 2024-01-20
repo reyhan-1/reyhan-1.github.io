@@ -1,26 +1,4 @@
 import styled from 'styled-components';
-import {MdKeyboardArrowRight, MdArrowForward} from 'react-icons/md'
-
-export const ArrowForward = styled(MdArrowForward)`
-   margin-left: 8px;
-   font-size: 20px;
-`
-export const ArrowRight = styled(MdKeyboardArrowRight)`
-   margin-left: 8px;
-   font-size: 20px;
-`
-export const ImgWrap = styled.div`
-   max-width: 555px;
-   height: 100%;
-   padding-top: 0;
-   padding-left: 50px;
-`
-export const Img = styled.img`
-   width: 85%;
-   margin :0;
-   padding-right: 0;
-   padding: 1em;
-`
 
 export const HeroContainer = styled.div`
    background-color: #f9f9f9;
@@ -138,3 +116,20 @@ export const HeroBtnWrapper = styled.div`
    flex-direction: column;
 `
 
+export const Column = styled.div`
+   box-sizing: border-box;
+   float: left;
+   width: 50%;
+   padding: 10px;
+   height: 300px;
+
+`
+
+export const Row = styled.div`
+&:after {
+   float: left;
+   width: 50%;
+   padding: 10px;
+   height: 300px;
+}
+`

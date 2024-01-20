@@ -54,7 +54,18 @@ const Navbar = ({toggle}) => {
                         exact='true'
                         offset={-60}
                         >
-                            Education & Experience </NavLinks>
+                            Experience </NavLinks>
+                    </NavItem>
+                    <NavItem>
+                        <NavLinks to='education'
+                        smooth={true}
+                        duration={550}
+                        spy={true}
+                        
+                        exact='true'
+                        offset={-60}
+                        >
+                            Education </NavLinks>
                     </NavItem>
                     <NavItem>
                         <NavLinks to='services'

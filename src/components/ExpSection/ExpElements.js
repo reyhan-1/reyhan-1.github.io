@@ -103,9 +103,7 @@ export const TopLine = styled.p`
 `
 
 export const TextWrapper = styled.div`
-   outline: 2px solid white;
    padding: 14px 32px;
-   border-radius: 3px;
    margin-top: 1rem;
    margin-left: 1rem;
    margin-right: 1rem;

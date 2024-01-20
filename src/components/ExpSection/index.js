@@ -93,29 +93,6 @@ Skills: Python, Machine Learning, Data Analysis, PyTorch.
 </TopLine> 
             </TextWrapper>
 
-            <TextWrapper>  
-            <ExpElementsH1 style={{ fontFamily: 'Acme' }}>Education</ExpElementsH1>
-            <a href="https://w3.bilkent.edu.tr/bilkent/" target="myTab"> Bilkent University </a>
-            <ExpElementsP  style={{ color: 'white', fontFamily: 'Acme' }} >  
-            B.S. Computer Science          <date style={{
-            fontSize: '0.8rem',
-            color: 'rgb(242, 121, 121)',
-            fontStyle: 'italic', fontFamily: 'Acme'}}> August 2021 </date>
-            </ExpElementsP>
-            <ExpElementsP  style={{ fontFamily: 'Acme', fontSize: '1rem', color: 'white' }} >  
-            Coursework    
-            </ExpElementsP>
-            <TopLine> 
-            • Algorithms & Complexity<br /> 
-            • Database Systems<br /> 
-            • Information Retrieval Systems<br /> 
-            • Application Lifecycle Management<br /> 
-            • Software Verification and Validation<br /> 
-            • Software Engineering Project Management<br /> 
-            • Computer Vision<br /> 
-            • Linear Programming<br />
-            </TopLine>
-            </TextWrapper>
          </ExpElementsContent>
       </ExpElementsContainer>
 
