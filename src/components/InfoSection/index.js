@@ -47,7 +47,7 @@ const InfoSection = ({
                         <SubtitleBold >{description2} </SubtitleBold>
                         <Subtitle2>{description3}</Subtitle2>
                         <TopLine>{topLine}</TopLine>
-                        <a href="https://www.linkedin.com/reyhan-uyanik"> linkedin </a>
+                        <a href="https://www.linkedin.com/in/reyhan-uyanik"> linkedin </a>
                         <a href="https://github.com/reyhan-1"> github </a> 
                         <a href="https://reyhan-1.github.io/resume/"> resume </a> 
                         <a href="mailto:reyhanuyanik@icloud.com"> email </a> 
