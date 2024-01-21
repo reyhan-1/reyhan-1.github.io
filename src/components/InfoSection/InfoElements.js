@@ -9,6 +9,10 @@ export const InfoContainer = styled.div`
    @media screen and (max-width: 768px){
       height:1000px;
    }
+
+   @media screen and (max-width: 480px){
+      padding-right:20px;
+   }
    
    a{
       font-size: 20px;
@@ -109,7 +113,7 @@ export const TopLine = styled.p`
 
 export const Heading = styled.h1`
    margin-bottom: 24px;
-   font-size: 48px;
+   font-size: 40px;
    line-height: 1.1;
    font-weight: 600;
    color: black;
@@ -120,37 +124,18 @@ export const Heading = styled.h1`
    }
 
    @media screen and (max-width: 1280px){
-      
-      margin-top:60px;
+      margin-top:10px;
    }
 `
 
 export const Subtitle = styled.p`
+   max-width: 840px;
    min-width: 500px;
-   margin-bottom: 35px;
-   font-size: 26px;
-   line-height: 24px;
+   font-size: 15px;
+   display: inline;
    font-family: "Montserrat";
    color: black;
-`
-
-export const Subtitle2 = styled.p`
-   max-width: 840px;
-   min-width: 500px;
-   font-size: 20px;
-   font-family: "Montserrat";
-   line-height:24px;
-   color: black; 
-`
-
-export const SubtitleBold = styled.p`
-   max-width: 840px;
-   min-width: 500px;
-   font-size: 20px;
-   font-family: "Montserrat";
-   line-height:24px;
-   color: black; 
-   font-weight: 700;
+   font-weight: ${({boldFont}) => (boldFont ? '' : '700')}; 
 `
 
 
@@ -169,20 +154,8 @@ export const ImgWrap = styled.div`
 export const Img = styled.img`
    width: 80%;
    background: #fff;
-   padding: 0.2em;
+   padding: 0.1em;
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  
-  @media screen and (max-width: 1280px){
-   width: 80%;
-}
-
-@media screen and (max-width: 760px){
-   width: 50%;
-}
-
-@media screen and (max-width: 360px){
-   width: 20%;
-}
 `
 
 

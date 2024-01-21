@@ -8,34 +8,21 @@ import {
    Column1,
    Column2, 
    TextWrapper,
-   TopLine,
    Heading,
    Subtitle, 
-   SubtitleBold,
-   BtnWrap, 
    ImgWrap, 
    Img ,
-   Subtitle2
 } from './InfoElements'
 
 
 const InfoSection = ({ 
    lightBg, 
+   boldFont,
    id, 
    imgStart, 
-   topLine, 
-   lightText, 
-   headline,
-   darkText, 
-   description,
-   description2,
-   description3, 
-   buttonLabel, 
    img, 
-   alt, 
-   primary, 
-   dark, 
-   dark2}) => {
+   alt,
+   }) => {
    return (
       <>
          <InfoContainer lightBg={!lightBg} id={id}>
@@ -43,10 +30,13 @@ const InfoSection = ({
                <InfoRow imgStart={imgStart}>
                   <Column1>
                      <TextWrapper>
-                        <Heading lightText={lightText}>{headline}</Heading>
-                        <SubtitleBold >{description2} </SubtitleBold>
-                        <Subtitle2>{description3}</Subtitle2>
-                        <TopLine>{topLine}</TopLine>
+                        <Heading>Hi, I'm Reyhan</Heading>
+                        <Subtitle boldFont={!boldFont}>As a <Subtitle boldFont={boldFont}>software engineer</Subtitle> I am passionate about solving problems through different levers. </Subtitle>
+                        <Subtitle boldFont={!boldFont}>My academic and industry interests include <Subtitle boldFont={boldFont}> full stack development</Subtitle>, automation, and software engineering project management. </Subtitle>
+                        <Subtitle boldFont={!boldFont}>I've had the pleasure of working at amazing <Subtitle boldFont={boldFont}>green tech </Subtitle> companies in the past, such as</Subtitle>
+                        <Subtitle boldFont={boldFont}> Axiom Cloud </Subtitle> <Subtitle boldFont={!boldFont}>and</Subtitle> <Subtitle boldFont={boldFont}>Uplight.</Subtitle>
+                        <br/>
+                        <br/>
                         <a href="https://www.linkedin.com/in/reyhan-uyanik"> linkedin </a>
                         <a href="https://github.com/reyhan-1"> github </a> 
                         <a href="https://reyhan-1.github.io/resume/"> resume </a> 

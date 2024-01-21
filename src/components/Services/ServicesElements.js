@@ -7,7 +7,8 @@ export const ServicesContainer = styled.div`
    justify-content: center;
    align-items:center;
    padding-bottom: 50px;
-   background: linear-gradient(to top, black,  #494902);
+   background: black;
+   // background: linear-gradient(to top, black,  rgb(207,255,229));
    display: flex;
    position: relative;
 
@@ -49,7 +50,7 @@ export const ServicesContainer = styled.div`
     }
     
    a:hover {
-    color:black;
+    color:pink;
     }
    
 

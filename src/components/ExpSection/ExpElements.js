@@ -2,38 +2,31 @@ import styled from 'styled-components';
 
 export const ExpElementsContainer = styled.div`
    display: flex;
-   grid-template-columns: 1fr 1fr 1fr;
-   display: inline-block;
    vertical-align: middle;
-   height: 140vh;
    z-index: 1;
    width: 100%;
-   padding-right: 50px;
+   padding-right: 30px;
    padding-left: 30px;
    padding-top: 80px;
-   padding-bottom: 80px;
-   color:white;
-   background-color: black;
+   padding-bottom: -20px;
+   color:black;
+   background-color: rgb(211,211,211);
 
    @media screen and (max-width: 1280px){
-      height:1300px;
+      height:900px;
    }
 
 
    @media screen and (max-width: 760px){
-      height:1350px;
+      height:1200px;
                      }
 
    @media screen and (max-width: 480px){
-      height:1050px;
+      height:1500px;
                      }
 
-                     @media screen and (max-width: 320px){
-                        height:1200px;
-                                       }
-
    a{
-      color: white;
+      color: black;
       font-family: "Acme";
       font-size: 1.25rem;
    }
@@ -50,14 +43,11 @@ export const ExpElementsContainer = styled.div`
 export const ExpElementsContent = styled.div`
    position: flex;
    min-height: 800px;
-   max-width: 1100px;
    margin-right: auto;
    font-family: "Montserrat";
    margin-left: auto;
    padding: 0 24px;
-   justify-content: center;
    list-style:none;
-   margin-bottom:-50px;
 `
 
 
@@ -72,17 +62,14 @@ margin-bottom: 10px;
 
 export const ExpElementsP = styled.p`
    font-size: 16px;
-   color:blue;
 `
 
 export const role = styled.p`
    font-size: 0.8rem;
-   color: white;
 `
 
 export const loc = styled.p`
    font-size: 0.8rem;
-   margin-bottom: 10px;
    color: rgb(205, 88, 88);
 `
 
@@ -93,19 +80,48 @@ export const date = styled.p`
 `
 
 export const TopLine = styled.p`
-   color: white;
+   color: black;
    font-size: 14px;
    line-height: 16px;
-   font-weight: 700;
-   letter-spacing: 1.2px;
-   margin-bottom: 16px;
-   font-family: "Montserrat";   
+   // letter-spacing: px;
+   margin-bottom: 12px;
+   font-family: "Montserrat";
 `
 
 export const TextWrapper = styled.div`
-   padding: 14px 32px;
-   margin-top: 1rem;
-   margin-left: 1rem;
-   margin-right: 1rem;
    width: 100%;
+`
+
+export const Column = styled.div`
+   box-sizing: border-box;
+   float: left;
+   width: 50%;
+   padding: 5px;
+   height: 300px;
+   
+   @media screen and (max-width: 1280px){
+      height:350px;
+   }
+
+   @media screen and (max-width: 760px){
+      height:500px;
+   }
+
+   @media screen and (max-width: 480px){
+      box-sizing: border-box;
+      width: 100%;
+      float: none;
+      height:500px;
+
+   }
+
+`
+
+export const Row = styled.div`
+&:after {
+   float: left;
+   width: 50%;
+   padding: 10px;
+   height: 200px;
+}
 `

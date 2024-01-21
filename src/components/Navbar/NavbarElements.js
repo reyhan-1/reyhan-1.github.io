@@ -111,7 +111,7 @@ export const NavLinks = styled(LinkS)`  /*react scroll link*/
    &:hover{
 
       text-decoration: none;
-      color: #17f5f5;
+      color:rgb(207,255,229);
    }
 
    &.active {
@@ -136,7 +136,7 @@ export const NavBtnLink = styled(LinkR)`
    background: #01bf71;
    white-space: nowrap;
    padding 10px 22px;
-   color: #010606;
+   color: rgb(207,255,229);
    font-size: 16px;
    border: none;
    cursor: pointer;
@@ -149,7 +149,7 @@ export const NavBtnLink = styled(LinkR)`
    &:hover{
       transition: all 0.2 ease-in-out;
       background: #fff;
-      color: #010606;
+      color: rgb(207,255,229);
    }
 `
 

@@ -13,7 +13,7 @@ export const homeObjOne = {
    description3:
    'My academic and industry interests include full stack development, automation, software engineering project management.',
    description4: 
-   ' I love using my technical skills for a good cause such as the environment.',
+   'I have had the pleasure of working at amazing green tech companies such as Axiom Cloud and Uplight.',
    imgStart: false, 
    img: logo,
    alt: 'reyhan', 
