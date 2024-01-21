@@ -75,7 +75,7 @@ const Navbar = ({toggle}) => {
                         exact='true'
                         offset={-60}>
                         
-                            Projects</NavLinks>
+                            Certifications & Projects</NavLinks>
                     </NavItem>
 
 

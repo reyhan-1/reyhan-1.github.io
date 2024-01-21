@@ -118,7 +118,7 @@ export const ServicesH1 = styled.h1`
    color: #fff;
    align-self:center;
    padding: 0px;
-   margin-top:120px;
+   margin-top:40px;
    @media screen and (max-width: 1000px) {
       font-size: 2.5rem;
 
@@ -138,7 +138,7 @@ export const ServicesH2 = styled.h2`
 export const ServicesH3 = styled.h1`
    font-size: 0.9rem;
    color: #fff;
-   margin-bottom: 0.9em;
+   margin-bottom: 20px;
 
    @media screen and (max-width: 480px) {
       font-size: 0.8rem;

@@ -37,7 +37,7 @@ const ExpElements = () => {
             <TopLine> 
          ◦ Worked as a backend developer. Worked on automating the process of onboarding a new site to the apps, and detecting/reacting to leaks.</TopLine>
       <TopLine> 
-Skills: Airflow · Python (Programming Language) · Amazon Web Services (AWS)
+Skills: Airflow · Python (Programming Language) · Kubernetes · Amazon Web Services (AWS) · Professional Scrum Master (PSM I)
          </TopLine>
             
             </Column>
@@ -66,7 +66,7 @@ Skills: Airflow · Python (Programming Language) · Amazon Web Services (AWS)
 ◦ Participatied in the following stages of the new platform: planning, implementation, testing, deployment and maintenance.
 </TopLine>
 <TopLine> 
-Skills: Python, Google Cloud Platform (GCP), SQL, Amazon Web Services (AWS), Jira, Postman API, Database Administration.
+Skills: Python ·  Google Cloud Platform (GCP) ·  SQL ·  Amazon Web Services (AWS) ·  Jira ·  Postman API ·  Database Administration
          </TopLine>
 
 
@@ -94,7 +94,7 @@ Skills: Python, Google Cloud Platform (GCP), SQL, Amazon Web Services (AWS), Jir
       ◦ Redesigned and implemented advanced settings on enterprise admin system.
       </TopLine>
       <TopLine>
-      Skills: Python, ReactJS, Jira, and Postman API.
+      Skills: Python ·  ReactJS ·  Jira ·  and Postman API
       </TopLine>  
 
 
@@ -119,7 +119,7 @@ Skills: Python, Google Cloud Platform (GCP), SQL, Amazon Web Services (AWS), Jir
 ◦ Designed and implemented the settings page on digital twin system for smart city management project in Katar. Developed both client and server sides of the page, enhanced sensor page and added new functionalities.
 </TopLine> 
 <TopLine> 
-Skills: AngularJS, Node.js, MongoDB.
+Skills: AngularJS ·  Node.js ·  MongoDB.
 </TopLine> 
 <TopLine> 
 ◦ After my internship started working as a part time software engineer in Artificial Inteligence team.
@@ -128,7 +128,7 @@ Skills: AngularJS, Node.js, MongoDB.
 ◦ Participated in deep learning projects from data labeling to model training and testing. My work included data engineering including extracting, transform and loading.
 </TopLine>
 <TopLine>  
-Skills: Python, Machine Learning, Data Analysis, PyTorch.
+Skills: Python ·  Machine Learning ·  Data Analysis ·  PyTorch
 </TopLine> 
             
             </Column>

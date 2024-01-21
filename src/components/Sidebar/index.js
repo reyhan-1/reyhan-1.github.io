@@ -23,7 +23,7 @@ const Sidebar = ({isOpen, toggle}) => {
                   Education
                </SidebarLink>
                <SidebarLink to="services" onClick={toggle}>
-                  Projects
+                  Certifications & Projects
                </SidebarLink>
             </SidebarMenu>
             

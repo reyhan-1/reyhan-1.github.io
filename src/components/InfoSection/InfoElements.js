@@ -7,6 +7,7 @@ export const InfoContainer = styled.div`
    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Acme, Verdana, sans-serif;
 
    @media screen and (max-width: 768px){
+      padding-top:200px;
       height:1000px;
    }
 
@@ -148,12 +149,19 @@ export const ImgWrap = styled.div`
    max-width: 555px;
    height: 100%;
    margin-left: 60px;
+
+   @media screen and (max-width: 768px){
+      padding-bottom:90px;
+   }
 `
 export const Img = styled.img`
    width: 80%;
    background: #fff;
    padding: 0.1em;
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   @media screen and (max-width: 768px){
+      width:80%;
+   }
 `
 
 

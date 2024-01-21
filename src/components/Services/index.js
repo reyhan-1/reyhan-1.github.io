@@ -4,6 +4,7 @@ import Icon3 from '../../images/poker.png'
 import Icon4 from '../../images/shipit.png'
 import Icon5 from '../../images/netflix.png'
 import Icon6 from '../../images/paper.gif'
+import Icon7 from '../../images/psmi.jpg'
 
 import { 
    ServicesContainer, 
@@ -19,10 +20,15 @@ import {
 const Services = () => {
    return (
       <ServicesContainer id="services">
-         <ServicesH1 style={ {fontFamily: "Acme"}}>Projects</ServicesH1>
+         <ServicesH1 style={ {fontFamily: "Acme"}}>Certifications & Projects</ServicesH1>
          <ServicesH3> Codes can be found on my <a href="https://github.com/reyhan-1" target="myTab">github page.</a> </ServicesH3> 
          <ServicesWrapper>
-         
+         <ServicesCard>
+               <ServicesIcons src={Icon7}/>
+               <ServicesH2>PSM I</ServicesH2>
+               <ServicesP> Professional Scrum Master I Certificate</ServicesP>
+            </ServicesCard>
+
          <ServicesCard>
                <ServicesIcons src={Icon6}/>
                <ServicesH2> Instagramlike Website</ServicesH2>
@@ -56,6 +62,7 @@ const Services = () => {
                <ServicesH2>Login</ServicesH2>
                <ServicesP> Netflix login and sign up page for Selenium Testing.</ServicesP>
             </ServicesCard>
+
          
                
          </ServicesWrapper>
