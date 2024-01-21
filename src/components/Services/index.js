@@ -20,7 +20,7 @@ import {
 const Services = () => {
    return (
       <ServicesContainer id="services">
-         <ServicesH1 style={ {fontFamily: "Acme"}}>Certifications & Projects</ServicesH1>
+         <ServicesH1>Certifications & Projects</ServicesH1>
          <ServicesH3> Codes can be found on my <a href="https://github.com/reyhan-1" target="myTab">github page.</a> </ServicesH3> 
          <ServicesWrapper>
          <ServicesCard>

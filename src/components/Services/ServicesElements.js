@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const ServicesContainer = styled.div`
    min-height: 800px;
+   font-family: "Montserrat";
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -44,9 +45,10 @@ export const ServicesContainer = styled.div`
    }
    a{
       color: white;
+      font-family: "Montserrat";
     }
    a:link {
-      text-decoration: underline ;
+      text-decoration: none ;
     }
     
    a:hover {
@@ -119,6 +121,7 @@ export const ServicesH1 = styled.h1`
    align-self:center;
    padding: 0px;
    margin-top:40px;
+   font-family:"Acme";
    @media screen and (max-width: 1000px) {
       font-size: 2.5rem;
 
@@ -139,6 +142,7 @@ export const ServicesH3 = styled.h1`
    font-size: 0.9rem;
    color: #fff;
    margin-bottom: 20px;
+   font-family: "Montserrat";
 
    @media screen and (max-width: 480px) {
       font-size: 0.8rem;
@@ -148,4 +152,5 @@ export const ServicesH3 = styled.h1`
 export const ServicesP = styled.p`
    font-size: 0.8rem;
    text-align:center;
+   font-family: "Montserrat";
 `

@@ -32,6 +32,7 @@ const HeroSection = () => {
                <h2> Education</h2>
                <h3> Bilkent University</h3>
                <p> B.S. Computer Engineering (2021) </p>
+            
             </Column>
             <Column> 
             <h2>Coursework</h2>
