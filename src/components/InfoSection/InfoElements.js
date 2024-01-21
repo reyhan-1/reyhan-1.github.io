@@ -35,14 +35,12 @@ export const InfoWrapper = styled.div`
    display: grid;
    z-index:1;
    height: 900px;
-   max-width: 1100px;
+   max-width: 1000px;
    margin-right: auto;
    margin-left: auto;
-   padding-top: 100px;
 
    a{
       color: black;
-      margin-left: 20px;
    }
 
    a:link {
@@ -50,7 +48,7 @@ export const InfoWrapper = styled.div`
     }
     
    a:hover {
-    color:IndianRed;
+    color:pink;
    }
 `
 
